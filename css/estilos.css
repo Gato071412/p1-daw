@@ -1,0 +1,50 @@
+/* Configuración del fondo y centrado de la página */
+body {
+  font-family: sans-serif;
+  background-color: #f1f5f9;
+  color: #334155;
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 1rem;
+}
+
+/* Título principal: Servidor DAW */
+h1 {
+  color: #0f172a;
+  font-size: 1.8rem;
+  margin: 0 0 0.5rem 0;
+  text-align: center;
+  width: 100%;
+  max-width: 480px;
+}
+
+/* El primer párrafo: Javier Flores – Práctica 1 DAW */
+h1 + p {
+  color: #2563eb;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 1.5rem;
+  background: transparent;
+  border: none;
+  box-shadow: none;
+  padding: 0;
+  width: 100%;
+  max-width: 480px;
+}
+
+/* El resto de párrafos (Fecha, PHP, Servidor, IP, Protocolo) */
+p {
+  width: 100%;
+  max-width: 480px;
+  background-color: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  padding: 0.75rem 1rem;
+  margin: 0.4rem 0;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+  box-sizing: border-box;
+}
